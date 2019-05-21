@@ -1,11 +1,12 @@
-#section1 {padding-top:50px;height:500px;color: rgb(0, 0, 0);}
-#section2 {padding-top:50px;height:500px;color: rgb(0, 0, 0);}
-#section3 {padding-top:50px;height:500px;color: rgb(0, 0, 0);}
+#AboutMe {padding-top:50px;height:500px;color: rgb(0, 0, 0);}
+#Skills {padding-top:50px;height:500px;color: rgb(0, 0, 0);}
+#Contact {padding-top:50px;height:500px;color: rgb(0, 0, 0);}
 
 #Name {color: aliceblue}
+
 span{
     color: rgb(196, 36, 36)
-    }
+}
 
 .affix {
     top: 0;
@@ -13,4 +14,11 @@ span{
     z-index: 9999 !important;
   }
 
-  
+img {
+    background-color: #fff;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+}
