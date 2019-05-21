@@ -1,1 +1,47 @@
-<!DOCTYPE html><head><title> Patrick Iwaszko </title>  <link href="/normalize.css" rel="stylesheet">  <style>    header {      text-align: center;      background: url(http://i.imgur.com/g7XmSPC.jpg);      background-size: cover;      color: purple;    }    a {      color: purple;      font-size: 60px;    }    h1 {      font-size: 70px;    }    img {      margin: 40px 0px 0px 0px;      border: 7px solid black;      border-radius: 20px;    }    ul {      padding: 10px;    }    li {      display: inline;      padding: 0px 10px 0px 10px;    }    p{      text-align: center;      font-size: 30px;    }    h2{      font-size: 50px;      padding: 0px 10px 0px 10px;      text-align: center;    }    h3{      font-size: 50px;      padding: 0px 10px 0px 10px;      text-align: center;    }    </style></head><body>  <header><a href="http://imgur.com/a6fgr5N"><img src="http://i.imgur.com/a6fgr5Nb.jpg" title="source: imgur.com" /></a><h1>Patrick Iwaszko</h1><br> </br>  </header>  <h2> About Me:</h2>   <p> Hello, and welcome to my website! My name is Patrick Iwaszko and I am currently an <br> undergraduate student studying computer science at the University at Buffalo. <br>I began my undergraduate career here in the fall of 2016 and plan on receiving a B.S. <br> degree in computer science and a minor in mathematics. All of my experience <br> and academic achievments can be found in the "Resume" URL below.</p>   <h3>   Contact Information:   </h3>   <p> Email: piwaszko@buffalo.edu <br> Phone: (516) 582-0880</body>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patrick Iwaszko</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+						
+</head>
+	<body>
+		<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="50">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+				<h3 id="Name">Patrick<span> Iwaszko</span></h3>
+			  </div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+					  <li><a href="#section1">About Me</a></li>
+					  <li><a href="#section2">Contact</a></li>
+					</ul>
+				  </div>
+			</div>
+		  </nav>
+			
+		<div class="jumbotron text-center">
+			<img src="static/images/picOfMe.png" class="img-circle" alt="Cinque Terre" width="200" height="200"> 
+			<h2>Patrick Iwaszko</h2>
+			<h3>University at Buffalo <br> Class of 2020</h3>
+		</div>
+
+		<div id="section1" align="center" class="container-fluid">
+			<h1>About Me</h1>
+			<h3>Hello, and welcome to my website! My name is Patrick Iwaszko and I am currently an 
+			<br> undergraduate student studying computer science at the University at Buffalo. 
+			<br> I began my undergraduate career here in the fall of 2016 and plan on receiving a B.S. 
+			<br> degree in computer science.
+			</h3>
+		</div>
+		<div id="section2" align="center" class="container-fluid">
+			<h1>Contact</h1>
+			<h3>Email: piwaszko@buffalo.edu</h3>
+			<h3>LinkedIn:<a href="https://www.linkedin.com/in/patrick-iwaszko-b38398120/"><img border="0" alt="LinkedIn" src="static/images/linkedin.png" width="50" height="50"></a></h3>
+		</div>
+	</body>
+</html>
